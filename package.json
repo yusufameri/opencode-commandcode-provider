@@ -1,5 +1,5 @@
 {
-  "name": "opencode-commandcode-provider",
+  "name": "@yusufameri/opencode-commandcode-provider",
   "version": "0.1.0",
   "description": "Command Code provider for OpenCode using the official Provider API. Dynamic model discovery, no manual syncs.",
   "type": "module",
@@ -28,6 +28,17 @@
     "llm"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yusufameri/opencode-commandcode-provider.git"
+  },
+  "homepage": "https://github.com/yusufameri/opencode-commandcode-provider#readme",
+  "bugs": {
+    "url": "https://github.com/yusufameri/opencode-commandcode-provider/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "typecheck": "tsc --noEmit",
     "test": "bun test"

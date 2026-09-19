@@ -1,4 +1,4 @@
-# @yusufameri/opencode-commandcode-provider
+# @yusuf.ameri/opencode-commandcode-provider
 
 Command Code provider for [OpenCode](https://opencode.ai), built on Command Code's
 [official Provider API](https://commandcode.ai/docs/provider).
@@ -19,7 +19,7 @@ Add the plugin to `~/.config/opencode/opencode.json` (or `opencode.jsonc`):
 ```json
 {
   "$schema": "https://opencode.ai/config.json",
-  "plugin": ["@yusufameri/opencode-commandcode-provider"]
+  "plugin": ["@yusuf.ameri/opencode-commandcode-provider"]
 }
 ```
 

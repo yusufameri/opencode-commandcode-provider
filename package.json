@@ -1,0 +1,40 @@
+{
+  "name": "opencode-commandcode-provider",
+  "version": "0.1.0",
+  "description": "Command Code provider for OpenCode using the official Provider API. Dynamic model discovery, no manual syncs.",
+  "type": "module",
+  "main": "index.ts",
+  "types": "index.ts",
+  "exports": {
+    ".": {
+      "types": "./index.ts",
+      "import": "./index.ts"
+    }
+  },
+  "files": [
+    "index.ts",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "opencode-provider",
+    "commandcode",
+    "command-code",
+    "provider",
+    "ai-sdk",
+    "llm"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "@opencode-ai/plugin": "1.18.31",
+    "@types/bun": "^1.2.0",
+    "typescript": "^5.9.0"
+  }
+}
